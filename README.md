@@ -6,3 +6,6 @@ Multi-label text classification and narrative feature tagging on the TinyStories
   * *DistilBERT **Fine-Tuning**:* Sequence classification with tokenization, cross-entropy multi-label loss, and PR-curve threshold calibration.
   * *Custom 1D-CNN:* Multi-scale convolutional feature extractors comparing single-branch vs. dual-branch (local vs. global receptive fields) architectures.
 * **Performance vs. Efficiency Analysis:** Evaluation across per-tag F1-scores, accuracy, training footprint, and parameter efficiency (600k vs. 5.3M vs. 67M parameters).
+
+# IMPORTANT
+I was unable to upload the .safetensors weights for the second model (file too large); thus, the model must be retrained in order to run.
